@@ -83,7 +83,6 @@ footer{
     width: 6px;
     border-radius: 100%;
 }
-
 .carousel-indicators{
     justify-content: start;
     gap: 0.5rem;
@@ -91,6 +90,48 @@ footer{
 .carousel-indicators .active{
     background-color: white !important;
 }
+
+/*CARDS*/
+
+main{
+    display:flex;
+    align-items:center;
+}
+.card-group{
+    margin: 5%  !important;
+    gap: 2rem;
+    
+    width: 100% !important;
+    height: 100% !important;
+    display: grid !important;
+    grid-template-columns: 520px 520px;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-content: center !important;
+}
+.card-body{
+    padding: 10px;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    margin: auto !important;
+    padding: 0px !important;
+    display: flex !important;
+    width: 520px !important;
+    height: 420px !important;
+    max-height: 450px !important;
+    border: 1px solid #e1e1e1 !important;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 7%) !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+    justify-content: center !important;}
+    
 @media (max-width:992px) {
     .copyright-bar{
         flex-direction: column;
