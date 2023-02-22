@@ -44,7 +44,7 @@ footer{
 }
 
 .drop{
-    background-image: url(./img/drop.jpg);
+    background-image: url(./assets/drop.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     padding: 0 10%;
@@ -75,6 +75,21 @@ footer{
 
 .app-button-container{
     justify-content: end;
+}
+
+
+.carousel-indicators [data-bs-target]{
+    height: 6px;
+    width: 6px;
+    border-radius: 100%;
+}
+
+.carousel-indicators{
+    justify-content: start;
+    gap: 0.5rem;
+}
+.carousel-indicators .active{
+    background-color: white !important;
 }
 @media (max-width:992px) {
     .copyright-bar{
