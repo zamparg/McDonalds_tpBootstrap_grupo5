@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    margin:0;
+    padding:0 !important;
+}
+.mcd-footer-brand img{
+    width: 40px !important;
+    height: auto;
+}
+
+.button-app{
+    height: 40px;
+}
+
+.bi{
+    padding:0.35rem 0.5rem 0.35rem 0.5rem; 
+    border: 1px solid gray;
+    border-radius: 100%;
+    color: gray;
+}
+
+.bi-facebook:hover{
+    background-color: rgb(73, 96, 161);
+    color: white;
+    border: 1px solid white;
+}
+.bi-twitter:hover{
+    background-color: rgb(137, 201, 209);
+    color: white;
+    border: 1px solid white;
+}
+.bi-instagram:hover{
+    background-color: rgb(209, 0, 87);
+    color: white;
+    border: 1px solid white;
+}
+.bi-youtube:hover{
+    background-color: rgb(212, 52, 52);
+    color: white;
+    border: 1px solid white;
+}
+
+.drop{
+    background-image: url(./img/drop.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding: 0 10%;
+    padding-top: 5rem !important;
+}
+.mcd-image{
+    width: 123px;
+    min-width: 45px;
+    margin-right: 16px;
+}
+.mcd-image img{
+    width: 100%;
+    height: auto;
+    padding-right: 3rem;
+}
+
+.btn-download{
+    border: none;
+    background-color: white;
+}
+.bg-yellow{
+    background-color: #fec200;
+}
+
+.copyright-bar{
+    padding: 0 10%;
+}
+
+.app-button-container{
+    justify-content: end;
+}
+@media (max-width:992px) {
+    .copyright-bar{
+        flex-direction: column;
+    }
+    .copyright-bar-links{
+        font-size: small;
+    }
+    .drop{
+        flex-direction: column;
+    }
+    .social{
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .app-button-container{
+        width: 100%;
+        justify-content: space-around;
+}
+    .mcd-image{
+        width: 45px;
+        min-width: 45px;
+        margin-right: 5px;
+
+    }
+    .mcd-image img{
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+        padding-left: 1rem;
+    }
+}
