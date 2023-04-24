@@ -2,6 +2,26 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.dropdown-menu {
+    width: 100vw
+}
+.dropdown-menu.show{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.show>*{
+    width: 30%;
+}
+.dropdown-item{
+    width: 30vw !important;
+    display: inline-block;
+}
+.img-menu {
+    max-height: 45px;
+}
+
 footer{
     margin:0;
     padding:0 !important;
@@ -131,7 +151,7 @@ main{
     border-radius: 6px !important;
     overflow: hidden !important;
     justify-content: center !important;}
-    
+
 @media (max-width:992px) {
     .copyright-bar{
         flex-direction: column;
